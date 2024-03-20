@@ -291,6 +291,11 @@ This example is equivalent to::
         if not my_objects:
             raise Http404("No MyModel matches the given query.")
 
-.. versionchanged:: 5.0
+.. versionchanged:: 5.1
 
     ``aget_list_or_404()`` function was added.
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
